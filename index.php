@@ -1,20 +1,17 @@
 <?php
 /*
-Plugin Name: Qoute Form
-Description: Submitting quote with email template
-Version: 1.0
-Author: Bernard Belda
+Plugin Name: Quoting Form
+Description: A form layout template with sending email templates.
+Version: 1.2
+Author: Bernard Belda Jr.
 */
 
+require __DIR__ ."/includes/enqueue-files.php";
 
-require __DIR__ ."/include/enqueue-files.php";
+require __DIR__ ."/includes/form-view.php";
 
-require __DIR__ ."/include/form-view.php";
+require __DIR__ ."/includes/email-template.php";
 
-require __DIR__ ."/include/email-template.php";
-
-require __DIR__ ."/include/shortcode-item.php";
-
-
+require __DIR__ ."/includes/shortcode-item.php";
 
 ?>
