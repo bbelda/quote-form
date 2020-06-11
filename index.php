@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Quoting Form
-Description: A form layout template with sending email templates.
+Description: A shortcode form layout template with sending email templates. The shortcode is [quote_form].
 Version: 1.2
 Author: Bernard Belda Jr.
 */
